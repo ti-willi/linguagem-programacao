@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+
+}
+
+.label {
+    color: whitesmoke;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+.input {
+    width: 250px;
+    padding: 6px;
+}
+
+.button {
+    width: 100px;
+    padding: 5px;
+    margin-top: 1em;
+}
+
+.resposta {
+    color: whitesmoke;
+    font-size: 2.5em;
+    display: none;
+    position: absolute;
+    margin: 50vh;
+}
