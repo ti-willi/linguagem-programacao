@@ -1,5 +1,7 @@
 body {
-    background: black;
+    background: url("img/bk.jpg");
+    background-size: cover;
+    font-family: 'Quantico', sans-serif;
 }
 
 .container {
@@ -19,12 +21,26 @@ body {
 .input {
     width: 250px;
     padding: 6px;
+    background-color: whitesmoke;
 }
 
-.button {
+.button, .button-sn button {
     width: 100px;
     padding: 5px;
-    margin-top: 1em;
+    margin: 1em;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.button:hover, .button-sn button:hover {
+    background-color: black;
+    color: whitesmoke;
+    transform: scale(1.05);
 }
 
 div {
@@ -33,22 +49,35 @@ div {
     flex-direction: column;
 }
 
-.resultado {
+.label {
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+}
+
+.resultado, .resultado2 {
     color: whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
     font-size: 2.5em;
     display: none;
     margin-top: 60px;
-
-
+   text-align: center;
 }
 
 
-.pergunta2 {
-    display: none;
-    margin-top: 2em
-}
-
-.pergunta3 {
+.pergunta2, .pergunta3 {
     display: none;
     margin-top: 2em;
 }
+
+
+
+.button-sn {
+    display: none;
+    margin-top: 20px;
+
+}
+
