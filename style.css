@@ -1,6 +1,6 @@
 body {
     background: url("img/bk.jpg");
-    background-size: cover;
+    background-size: auto;
     font-family: 'Quantico', sans-serif;
 }
 
@@ -20,8 +20,9 @@ body {
 
 .input {
     width: 250px;
-    padding: 6px;
-    background-color: whitesmoke;
+    padding: 10px;
+    background-color: rgb(12, 11, 11);
+    color: whitesmoke;
 }
 
 .button, .button-sn button {
@@ -64,7 +65,7 @@ div {
     font-size: 2.5em;
     display: none;
     margin-top: 60px;
-   text-align: center;
+    text-align: center;
 }
 
 
@@ -81,3 +82,18 @@ div {
 
 }
 
+
+@media (max-width: 790px) {
+
+    .label {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .resultado, .resultado2 {
+        font-size: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

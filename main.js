@@ -38,7 +38,7 @@ button1.addEventListener("click", () => {
 
 input1.addEventListener("keyup", (event) => {
    
-    if(event.code === "Enter") {
+    if(event.code === "Enter" && event === button1) {
         
         mostraPergunta2();
         input2.focus();
